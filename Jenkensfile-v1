@@ -40,7 +40,7 @@ pipeline {
                         {
                           
                         // sh "docker login --username \$(dockerhub-username) --password \$(dockerhub-pwd) " 
-                         sh 'docker login -u yli202c -p Progress745'
+                         sh 'docker login -u yli202c -p *****'
                       }
                         
                       //  withCredentials([string(credentialsId: '2d8153e3-571c-4156-b7bc-62927a34db76', variable: 'dockerhub-pwd')]) 
